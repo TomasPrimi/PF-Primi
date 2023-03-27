@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box; 
+        padding: 0px; 
+            margin: 0px;
+}
+.nombre {
+    display: inline-block;
+}
+.paginas { 
+    text-decoration: none; 
+        color:  black; 
+            font-weight: bold; 
+                padding: 0px 8px 0px 8px ; 
+                    border-radius: 1px; 
+                        border: 2px solid black; 
+                            background-color: white;
+}
+header {
+    background-color: #4285F4;
+}
+body {
+    background-color:#AFBFCE;
+}
+footer {
+    background-color:#316fd3;
+}
+.titulo-destacado {
+    font-size: 60px;
+}
+.mercancia {
+    border-top: 4px solid black ; 
+        border-bottom: 4px solid black;
+}
+.img-mercancia {    
+    background-color: black; 
+        border-radius: 20px;
+            border: 2px solid black; 
+                width: 200px;
+}
+.titulo-paginas {
+    font-size: 60px;
+}
+.destacado {
+    border-top: 4px solid black; 
+        border-bottom: 4px solid black;
+}
+.img-destacado {
+    background-color: black; 
+        border-radius: 20px;
+            border: 2px solid black; 
+                width: 200px;
+}
+.div-mercancia {
+    display: inline-block; 
+        border-radius: 1px; 
+            border: 3px solid black; 
+                padding: 50px; 
+                    margin-left: 123px;
+                        margin-top: 15px; 
+                            margin-bottom: 15px;
+}
+
+.boton {
+    padding: 10px; 
+        font-size: 15px; 
+            cursor: pointer;
+}
+.formulario {
+    display: inline-block; 
+        margin-right: 7px;
+}
+.trailer {
+    display: 	inline-block; 
+        margin-bottom: 7px;
+}
+.video {
+    width: 500px;
+    padding-top: 23.5px;
+}
+.logo {
+    border-radius: 20px ; 
+        border: 2px solid black; 
+            width: 40px;
+}
+a i{
+    color: #AFBFCE ;
+}
+.text-nosotros {
+    padding-bottom: 9px;
+
+}
