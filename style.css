@@ -167,5 +167,30 @@ footer {
 .video{
     width: 300px;
 }
-
+}
+@media screen and (max-width: 870px){
+footer {
+    display: flex;
+    justify-content: center;
+}
+.responsivefooter{
+    flex-wrap: nowrap;
+}
+.titulo-destacado {
+    display: block;
+}
+.video {
+    width: 350px;
+}
+.mostrador {
+    display:grid ;
+    grid-template-columns: repeat (3, 3fr);
+    grid-gap: 10px    
+}
+footer svg {
+    display: inline;
+}
+.div-mercancia {
+    width: 300px;
+}
 }
