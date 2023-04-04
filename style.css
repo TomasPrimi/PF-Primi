@@ -97,12 +97,6 @@ footer a {
 a i{
     color: #AFBFCE ;
 }
-.media {
-    display: flex;
-        flex-direction: column;
-            border: 3px solid black;
-                background-color: #2452a1;
-} 
 footer svg {
     flex-wrap: nowrap;
         fill: solid black;
