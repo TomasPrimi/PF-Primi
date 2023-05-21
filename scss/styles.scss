@@ -1,5 +1,16 @@
 @import "colores";
-* {
+@mixin flexcen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+@mixin lnk-out {
+  text-decoration: none;
+  color: inherit;
+}
+*
+{
+
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
@@ -12,12 +23,10 @@ header {
   display: none;
 }
 .nombre {
-  text-decoration: none;
-  color: inherit;
+@include lnk-out()
 }
 .nom-nav {
-  background-color: none;
-  color:inherit
+@include lnk-out()
 }
 ::-webkit-scrollbar {
   width: 20px;
@@ -122,11 +131,10 @@ header {
   }
   
   .destacado {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    @include flexcen; 
     border-top: 4px solid black;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid black; 
+    
   
     .img-destacado {
       border-radius: 20px;
@@ -142,9 +150,7 @@ header {
   }
   
   .mercancia {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    @include flexcen;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
   
