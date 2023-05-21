@@ -16,26 +16,63 @@
         <header>
             <h1>
                 <a class="nombre" href="index.html">
-                <img class="logo"  src="img/dicono.png" alt="Logo de Destiny I-Shop">
-                Destiny D-Shop
+                    <img class="logo"  src="img/dicono.png" alt="Logo de Destiny I-Shop">
+                    Destiny D-Shop
                 </a>
             </h1>
+            <div class="mobile-only">
+                <nav class="navbar navbar-dark navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-body">
+                                <nav class="navbar bg">
+                                    <div class="container-fluid">
+                                    <form class="d-flex" role="search">
+                                        <input class="form-control md-2" type="search" placeholder="¿Que buscas?" aria-label="Search">
+                                        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                                    </form>
+                                </nav>
+                            </div>
+                            <ul class="navbar-nav navbar-animacion ms-auto me-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/accesorios.html">ACCESORIOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/coleccionables.html">COLECCIONABLES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/vestimentas.html">VESTIMENTAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/nosotros.html">NOSOTROS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        <div class="mobile-none">
             <nav class="navbar navbar-expand-lg bg_black">
                 <nav class="navbar bg">
                     <div class="container-fluid">
-                      <form class="d-flex" role="search">
-                        <input class="form-control md-2" type="search" placeholder="¿Que buscas?" aria-label="Search">
-                        <button class="btn btn-outline-dark" type="submit">Buscar</button>
-                      </form>
+                        <form class="d-flex" role="search">
+                            <input class="form-control md-2" type="search" placeholder="¿Que buscas?" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                        </form>
                     </div>
-                  </nav>
-              </nav>
-              <nav class="navbar fixed-bottom bg-white">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="https://www.instagram.com/destinythegame" target="_blank">¡No te pierdas nuestas ultimas novedades! Siguenos en nuestro Instagram @destinythegame</a>
-                </div>
-              </nav>
+                </nav>
             </nav>
+            <nav class="navbar fixed-bottom bg-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://www.instagram.com/destinythegame" target="_blank">¡No te pierdas nuestas ultimas novedades! Siguenos en nuestro Instagram @destinythegame</a>
+                </div>
+            </nav>
+        </nav>
+        </div>
+
             <section class="nav-pag">
                 <div class="nav-pagimg">
                     <a href="pages/accesorios.html">
@@ -57,36 +94,11 @@
                         <img src="img/nosotrosd2.jpg" alt="nosotros">
                     </a>
                 </div>
-                <div class="mobile-only">
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
-                                    Merchandising
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="accesorios.html">Accesorios</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="coleccionables.html">Coleccionables</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href= "vestimentas.html">Vestimentas</a>
-                                    </li>
-                                     <li>
-                                        <a class="dropdown-item" href="nosotros.html">Nosotros</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                </section>   
         </header>
 <main>
     <section class="destacado">
-    <h2 class="titulo">¡Destacado del dia!</h2> 
+        <h2 class="titulo">¡Destacado del dia!</h2> 
         <div class="mostrador">
             <div class="div-mercancia"> 
                 <a href="pages/vestimentas.html"><img class="img-destacado" src="img/atadura_tshirt.jpg" alt="remera Strand"></a>
